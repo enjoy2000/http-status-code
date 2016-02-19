@@ -6,6 +6,8 @@
  * @license MIT
  * @package enjoy/http-status-code
  */
+namespace Enjoy\HttpStatusCode;
+
 class StatusCodes {
 	const HTTP_CONTINUE = 100;
 	const HTTP_SWITCHING_PROTOCOLS = 101;
