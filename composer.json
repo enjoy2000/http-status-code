@@ -1,0 +1,29 @@
+{
+  "name": "enjoy/http-status-code",
+  "type": "library",
+  "description": "List constants for http status codes",
+  "keywords": ["http", "constants", "status code", "php"],
+  "license": "MIT",
+  "homepage": "http://hatdao.me/",
+  "authors": [
+    {
+      "name": "Hat Dao",
+      "email": "enjoy3013@gmail.com",
+      "homepage": "http://hatdao.me"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Enjoy\\HttpStatusCode\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  }
+}
